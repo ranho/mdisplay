@@ -37,7 +37,7 @@ LCD_D6_PIN = 16
 LCD_D7_PIN = 12
 
 #RUNEAUDIO MODIFICATION
-do_something( json_encode($status));
+do_something( json_encode( $status));
 {"volume":"75","repeat":"0","random":"0","single":"0","consume":"0","playlist":"31","playlistlength":"4902","mixrampdb":"0.000000","state":"play","song":"2153","songid":"2154","time":"286","elapsed":"197","bitrate":"912","audio":"44100:16:2","nextsong":"2154","nextsongid":"2155","OK":null,"song_percent":69,"audio_sample_rate":"44.1","audio_sample_depth":"16","audio_channels":"Stereo","changed":"playlist","currentartist":"John Williams","currentsong":"Luke and Leia","currentalbum":"Star Wars: Episode VI - Return of the Jedi","fileext":"flac","radioname":null}
 
 # Variables allowing to fetch information from sound output use.
